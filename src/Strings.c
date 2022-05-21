@@ -36,7 +36,7 @@ int main() {
     // String Concatenation
     char dest[20] = "Hello";
     char src[20] = "World";
-    strncat(dest, src, 3);
+    strncat(dest, src, 3);  
     printf("%s\n", dest);
     strncat(dest, src, 20);
     printf("%s\n", dest);

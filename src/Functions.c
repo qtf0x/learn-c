@@ -6,6 +6,8 @@
  * @brief Functions are FUN.
  */
 
+#include <stdio.h>
+
 /* function declaration */
 int foo(int bar);
 

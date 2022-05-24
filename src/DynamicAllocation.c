@@ -3,7 +3,7 @@
  * @author Vincent Marias (@vincent-marias)
  * @date 2022-05-22
  *
- * @brief
+ * @brief A whole HEAP of fun!
  */
 
 #include <stdlib.h>

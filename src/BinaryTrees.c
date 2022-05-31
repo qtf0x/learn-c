@@ -3,7 +3,7 @@
  * @author Vincent Marias (@qtf0x)
  * @date 2022-05-28
  *
- * @brief
+ * @brief Binary tree traversal basics.
  */
 
 // Balanced Tree: The depth of the left and right subtrees of every node

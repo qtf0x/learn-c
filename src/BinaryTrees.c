@@ -22,7 +22,7 @@
  */
 
 /**
- * Breadth-First Search (BFS): In level-order, where we visit every ndoe on
+ * Breadth-First Search (BFS): In level-order, where we visit every node on
  * a level before going to a lower level
  */
 
@@ -36,8 +36,6 @@ typedef struct node {
 } node_t;
 
 void insert(node_t* tree, int val);
-
-void print_tree(node_t* current);
 
 void printDFS(node_t* current);
 
@@ -63,38 +61,39 @@ void insert(node_t* tree, int val) {
     if (tree->val == 0) {
         /* insert on current (empty) position */
         tree->val = val;
-    } else {
-        if (val < tree->val) {
-            /* insert left */
-            if (tree->left != NULL) {
-                insert(tree->left, val);
-            } else {
-                tree->left = (node_t*)malloc(sizeof(node_t));
-                /* set values explicitly, alternative would be calloc() */
-                tree->left->val = val;
-                tree->left->left = NULL;
-                tree->left->right = NULL;
-            }
-        } else {
-            if (val >= tree->val) {
-                /* insert right */
-                if (tree->right != NULL) {
-                    insert(tree->right, val);
-                } else {
-                    tree->right = (node_t*)malloc(sizeof(node_t));
-                    /* set values explicitly, alternative would be calloc() */
-                    tree->right->val = val;
-                    tree->right->left = NULL;
-                    tree->right->right = NULL;
-                }
-            }
+        return;
+    }
+
+    if (val < tree->val) {
+        /* insert left */
+        if (tree->left != NULL) {
+            insert(tree->left, val);
+            return;
         }
+
+        tree->left = (node_t*)malloc(sizeof(node_t));
+        /* set values explicitly, alternative would be calloc() */
+        tree->left->val = val;
+        tree->left->left = NULL;
+        tree->left->right = NULL;
+
+    } else {
+        /* insert right */
+        if (tree->right != NULL) {
+            insert(tree->right, val);
+            return;
+        }
+
+        tree->right = (node_t*)malloc(sizeof(node_t));
+        /* set values explicitly, alternative would be calloc() */
+        tree->right->val = val;
+        tree->right->left = NULL;
+        tree->right->right = NULL;
     }
 }
 
 /* depth-first search */
 void printDFS(node_t* current) {
-    /* change the code here */
     if (current == NULL)
         return; /* security measure */
     if (current != NULL)

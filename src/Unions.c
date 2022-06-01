@@ -13,7 +13,7 @@
 
 // Tagged Unions
 
-// this takes too much memory
+// this takes a lot of memory
 struct operator{
     int intNum;
     float floatNum;
@@ -83,6 +83,14 @@ int main() {
     for (int i = 0; i < sizeof(change) / sizeof(int); ++i) {
         scanf("%i", change.coins + i); // BAD code! input is always suspect!
     }
+    printf("There are %i quarters, %i dimes, %i nickels, and %i pennies\n",
+           change.quarter, change.dime, change.nickel, change.penny);
+
+    // OR
+
+    // initializer lists like this are assigned to the first member of the
+    // union/struct
+    union Coins change2 = {{1, 2, 3, 4}};
     printf("There are %i quarters, %i dimes, %i nickels, and %i pennies\n",
            change.quarter, change.dime, change.nickel, change.penny);
 

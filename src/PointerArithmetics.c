@@ -1,6 +1,6 @@
 /**
  * @author qtf0x
- * @date 31.5.2022
+ * @date 31.05.2022
  *
  * @brief It works kinda like you'd think. Go figure.
  */

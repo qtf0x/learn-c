@@ -1,7 +1,6 @@
 /**
- * @file Recursion.c
- * @author Vincent Marias (@vincent-marias)
- * @date 2022-05-26
+ * @author qtf0x
+ * @date 26.05.2022
  *
  * @brief It's just ... recursion.
  */

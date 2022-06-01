@@ -1,7 +1,6 @@
 /**
- * @file LinkedLists.c
- * @author Vincent Marias (@qtf0x)
- * @date 2022-05-27
+ * @author qtf0x
+ * @date 27.05.2022
  *
  * @brief C linked list implementation with basic functionality.
  */

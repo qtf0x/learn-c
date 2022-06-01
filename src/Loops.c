@@ -1,7 +1,6 @@
 /**
- * @file Loops.c
- * @author Vincent Marias (@vincent-marias)
- * @date 2022-05-20
+ * @author qtf0x
+ * @date 20.05.2022
  *
  * @brief Loops. They work like you would think.
  */

@@ -1,7 +1,6 @@
 /**
- * @file ArraysAndPointers.c
- * @author Vincent Marias (@vincent-marias)
- * @date 2022-05-24
+ * @author qtf0x
+ * @date 24.05.2022
  *
  * @brief They're the same thing (not really).
  */

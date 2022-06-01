@@ -1,7 +1,6 @@
 /**
- * @file BinaryTrees.c
- * @author Vincent Marias (@qtf0x)
- * @date 2022-05-28
+ * @author qtf0x
+ * @date 28.05.2022
  *
  * @brief Binary tree traversal basics.
  */

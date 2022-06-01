@@ -1,7 +1,6 @@
 /**
- * @file Structures.c
- * @author Vincent Marias (@vincent-marias)
- * @date 2022-05-22
+ * @author qtf0x
+ * @date 22.05.2022
  *
  * @brief Like classes, but worse.
  */

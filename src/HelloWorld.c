@@ -1,7 +1,6 @@
 /**
- * @file HelloWorld.c
- * @author Vincent Marias (@vincent-marias)
- * @date 2022-05-15
+ * @author qtf0x
+ * @date 15.05.2022
  *
  * @brief Hello, world!
  */

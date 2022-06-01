@@ -1,7 +1,6 @@
 /**
- * @file Unions.c
- * @author Vincent Marias (@qtf0x)
- * @date 2022-05-31
+ * @author qtf0x
+ * @date 31.05.2022
  *
  * @brief Unions are very weird.
  */

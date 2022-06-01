@@ -1,7 +1,6 @@
 /**
- * @file Types.c
- * @author Vincent Marias (@vincent-marias)
- * @date 2022-05-16
+ * @author qtf0x
+ * @date 16.05.2022
  *
  * @brief Basic use of primitive types.
  */
